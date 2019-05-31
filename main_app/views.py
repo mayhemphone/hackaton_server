@@ -13,7 +13,6 @@ model = pickle.load(open('model.sav', 'rb'))
 
 
 
-
 # Create your views here.
 @api_view(['GET', 'POST'])
 def chat(request):
