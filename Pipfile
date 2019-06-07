@@ -11,8 +11,9 @@ dj-database-url = "*"
 gunicorn = "*"
 django = "*"
 djangorestframework = "*"
-scikit-learn = "0.20.2"
+scikit-learn = "==0.20.2"
 pickle = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.7"
