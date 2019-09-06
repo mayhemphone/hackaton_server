@@ -30,7 +30,7 @@ SECRET_KEY = '$jv55q3h!1z2nc&)kxil5vmf)+4day=1w=-_%^9z^37xemadld'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://worth-it-server.herokuapp.com']
 
 
 # Application definition
