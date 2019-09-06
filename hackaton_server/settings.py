@@ -79,6 +79,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'hackaton_server.wsgi.application'
 
+# enable all domains DANGER!!
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
@@ -142,6 +144,5 @@ STATIC_URL = '/static/'
 # 	'https://worth-it-client.herokuapp.com',
 # 	'https://worth-it-server.herokuapp.com'
 # ]
-# enable all domains DANGER!!
-CORS_ORIGIN_ALLOW_ALL = True
+
 
