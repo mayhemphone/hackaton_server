@@ -137,11 +137,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-CORS_ORIGIN_WHITELIST = [
-	'http://localhost:3000',
-	'https://worth-it-client.herokuapp.com',
-	'https://worth-it-server.herokuapp.com'
-]
+# CORS_ORIGIN_WHITELIST = [
+# 	'http://localhost:3000',
+# 	'https://worth-it-client.herokuapp.com',
+# 	'https://worth-it-server.herokuapp.com'
+# ]
 # enable all domains DANGER!!
 CORS_ORIGIN_ALLOW_ALL = True
 
